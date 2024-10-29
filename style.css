@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Alice';
+    src: url('fonts/Alice_in_Wonderland_3.ttf');
+}
+
+body {
+    background-image:url('images/static-bright.gif');
+}
+
+#enter {
+padding-left: 800px;
+padding-top: 400px;
+}
+
+#enter a {
+    text-decoration: none; 
+}
+
+#main-header {
+    background-color: black;
+    text-align: center;
+    color: ghostwhite;
+    border-style: solid;
+    border-color:mediumpurple;
+}
+
+#main-header #eye {
+    margin-bottom: -140px;
+}
+
+#links {
+    background-color: black;
+    margin-top: 20px;
+    padding-bottom: 550px;
+    width: 140px;
+    height: 140px;
+    font-size: 50px;
+    border-style: solid;
+    border-color: mediumpurple;
+    position: fixed;
+}
+
+#links a {
+    color: mediumpurple;
+    text-decoration-color: mediumpurple;
+}
+
+#links img {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#music {
+    background-color: black;
+    color: ghostwhite;
+    text-align: center;
+    margin-left: 155px;
+    border-style: solid;
+    border-color: mediumpurple;
+}
+
+#blinkies {
+    background-color: black;
+    border: solid;
+    border-color: mediumpurple;
+    margin-left: 155px;
+    margin-right: 1525px;
+}
+
+#blinkies img {
+    width: 200px;
+}
+
+#video {
+    background-color: black;
+    color: ghostwhite;
+    margin-left: 400px;
+    margin-top: -1875px;
+    padding-bottom: 20px;
+    border: solid;
+    border-color: mediumpurple;
+}
+
+#video h1 {
+    margin-left: 20px;
+}
+
+#video iframe {
+    margin-left: 10px;
+}
+
+#video img {
+    margin-left: 80px;
+    margin-bottom: 80px;
+    transform: rotate(12deg);
+}
+
+#album {
+    background-color: black;
+    color: ghostwhite;
+    margin-left: 400px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border: solid;
+    border-color: mediumpurple;
+}
+
+#album h1 {
+    margin-left: 20px;
+}
+
+#album iframe {
+    margin-left: 10px;
+}
+
+#album img {
+    margin-left: 80px;
+    margin-bottom: -10px;
+}
+
+#album p {
+    margin-left: 20px;
+}
